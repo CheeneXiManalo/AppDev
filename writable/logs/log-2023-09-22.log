@@ -1,0 +1,593 @@
+CRITICAL - 2023-09-22 00:20:27 --> Invalid file: "products.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('products.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('products', [], true)
+ 3 APPPATH\Controllers\ProductController.php(39): view('products', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->laramel20()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 00:30:47 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #2 ($code) must be of type ?int, array given, called in C:\laragon\www\lara\tests\crudtest\app\Controllers\ProductController.php on line 29
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\ProductController.php(29): CodeIgniter\HTTP\RedirectResponse->to('product', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 00:31:06 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #2 ($code) must be of type ?int, array given, called in C:\laragon\www\lara\tests\crudtest\app\Controllers\ProductController.php on line 29
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\ProductController.php(29): CodeIgniter\HTTP\RedirectResponse->to('product', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 00:35:26 --> Undefined variable $product
+in APPPATH\Views\product.php on line 38.
+ 1 APPPATH\Views\product.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Views\\product.php', 38)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Views\\product.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('product', [], true)
+ 5 APPPATH\Controllers\ProductController.php(29): view('product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 00:35:51 --> Undefined variable $product
+in APPPATH\Views\product.php on line 38.
+ 1 APPPATH\Views\product.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Views\\product.php', 38)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Views\\product.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('product', [], true)
+ 5 APPPATH\Controllers\ProductController.php(29): view('product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 00:37:04 --> Undefined variable $product
+in APPPATH\Views\product.php on line 38.
+ 1 APPPATH\Views\product.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Views\\product.php', 38)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Views\\product.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('product', [], true)
+ 5 APPPATH\Controllers\ProductController.php(29): view('product')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 00:37:56 --> Undefined variable $product
+in APPPATH\Views\product.php on line 38.
+ 1 APPPATH\Views\product.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Views\\product.php', 38)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Views\\product.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('product', [], true)
+ 5 APPPATH\Controllers\ProductController.php(29): view('product')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 00:38:05 --> Undefined variable $product
+in APPPATH\Views\product.php on line 38.
+ 1 APPPATH\Views\product.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Views\\product.php', 38)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Views\\product.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('product', [], true)
+ 5 APPPATH\Controllers\ProductController.php(29): view('product')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 00:39:49 --> Undefined variable $product
+in APPPATH\Views\product.php on line 38.
+ 1 APPPATH\Views\product.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Views\\product.php', 38)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Views\\product.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('product', [], true)
+ 5 APPPATH\Controllers\ProductController.php(29): view('product')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 00:40:07 --> Undefined variable $data
+in APPPATH\Controllers\ProductController.php on line 17.
+ 1 APPPATH\Controllers\ProductController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Controllers\\ProductController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->Delete('18')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 00:41:15 --> Undefined variable $data
+in APPPATH\Controllers\ProductController.php on line 17.
+ 1 APPPATH\Controllers\ProductController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Controllers\\ProductController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->Delete('17')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 00:41:42 --> Undefined variable $data
+in APPPATH\Controllers\ProductController.php on line 17.
+ 1 APPPATH\Controllers\ProductController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Controllers\\ProductController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->Delete('17')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 00:41:45 --> Undefined variable $product
+in APPPATH\Views\product.php on line 38.
+ 1 APPPATH\Views\product.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Views\\product.php', 38)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Views\\product.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('product', [], true)
+ 5 APPPATH\Controllers\ProductController.php(39): view('product')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->laramel20()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 00:41:56 --> Undefined variable $product
+in APPPATH\Views\product.php on line 38.
+ 1 APPPATH\Views\product.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Views\\product.php', 38)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Views\\product.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('product', [], true)
+ 5 APPPATH\Controllers\ProductController.php(39): view('product')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->laramel20()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 00:42:31 --> Undefined variable $product
+in APPPATH\Views\product.php on line 38.
+ 1 APPPATH\Views\product.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Views\\product.php', 38)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Views\\product.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('product', [], true)
+ 5 APPPATH\Controllers\ProductController.php(29): view('product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 00:42:59 --> Undefined variable $product
+in APPPATH\Views\product.php on line 38.
+ 1 APPPATH\Views\product.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Views\\product.php', 38)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Views\\product.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('product', [], true)
+ 5 APPPATH\Controllers\ProductController.php(29): view('product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 01:53:52 --> Call to undefined method App\Models\ProductModel::edit
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProductController.php(21): CodeIgniter\Model->__call('edit', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 01:55:18 --> Call to undefined method App\Models\ProductModel::edit
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProductController.php(21): CodeIgniter\Model->__call('edit', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:02:11 --> Call to undefined method App\Models\ProductModel::updateProduct
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProductController.php(34): CodeIgniter\Model->__call('updateProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:04:06 --> Call to undefined method App\Models\ProductModel::updateProduct
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProductController.php(34): CodeIgniter\Model->__call('updateProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:04:37 --> Call to a member function updateProduct() on null
+in APPPATH\Controllers\ProductController.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:08:06 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->laramel20()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:08:12 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->laramel20()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:09:23 --> Call to undefined method App\Models\ProductModel::updateProduct
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProductController.php(45): CodeIgniter\Model->__call('updateProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:10:11 --> Call to undefined method App\Models\ProductModel::updateProduct
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProductController.php(45): CodeIgniter\Model->__call('updateProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('32')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:10:38 --> Call to undefined method App\Models\ProductModel::updateProduct
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProductController.php(45): CodeIgniter\Model->__call('updateProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:11:47 --> Call to undefined method App\Models\ProductModel::updateProduct
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProductController.php(45): CodeIgniter\Model->__call('updateProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:18:06 --> Call to undefined method App\Models\ProductModel::updateProduct
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProductController.php(45): CodeIgniter\Model->__call('updateProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:19:28 --> Call to undefined method App\Models\ProductModel::updateProduct
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProductController.php(45): CodeIgniter\Model->__call('updateProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:21:02 --> Call to undefined method App\Models\ProductModel::updateProduct
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProductController.php(46): CodeIgniter\Model->__call('updateProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:23:11 --> Call to undefined method App\Models\ProductModel::updateProduct
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProductController.php(46): CodeIgniter\Model->__call('updateProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:23:12 --> Call to undefined method App\Models\ProductModel::updateProduct
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProductController.php(46): CodeIgniter\Model->__call('updateProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:23:12 --> Call to undefined method App\Models\ProductModel::updateProduct
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProductController.php(46): CodeIgniter\Model->__call('updateProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:23:15 --> Call to undefined method App\Models\ProductModel::updateProduct
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProductController.php(46): CodeIgniter\Model->__call('updateProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:23:16 --> Call to undefined method App\Models\ProductModel::updateProduct
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProductController.php(46): CodeIgniter\Model->__call('updateProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:24:00 --> Call to undefined method App\Models\ProductModel::updateProduct
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProductController.php(46): CodeIgniter\Model->__call('updateProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:25:43 --> Undefined variable $data
+in APPPATH\Controllers\ProductController.php on line 46.
+ 1 APPPATH\Controllers\ProductController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Controllers\\ProductController.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:26:23 --> Call to undefined method App\Models\ProductModel::updateProduct
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProductController.php(46): CodeIgniter\Model->__call('updateProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:26:38 --> Call to undefined method App\Models\ProductModel::updateProduct
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProductController.php(46): CodeIgniter\Model->__call('updateProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:27:46 --> Call to undefined method App\Models\ProductModel::updateProduct
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProductController.php(46): CodeIgniter\Model->__call('updateProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:30:07 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\ProductController.php(57): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:30:07 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\ProductController.php(57): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:30:24 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\ProductController.php(57): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('32')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:31:04 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\ProductController.php(57): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('32')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:31:13 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\ProductController.php(57): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('32')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:31:14 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\ProductController.php(57): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('32')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:32:10 --> Undefined variable $var_dump
+in APPPATH\Controllers\ProductController.php on line 59.
+ 1 APPPATH\Controllers\ProductController.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $var_dump', 'C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Controllers\\ProductController.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('32')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:32:44 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\ProductController.php(57): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('32')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:33:56 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\ProductController.php(57): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:34:41 --> Call to undefined method App\Models\ProductModel::updateProduct
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProductController.php(46): CodeIgniter\Model->__call('updateProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:34:42 --> Call to undefined method App\Models\ProductModel::updateProduct
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProductController.php(46): CodeIgniter\Model->__call('updateProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:36:02 --> Call to undefined method App\Models\ProductModel::updateProduct
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProductController.php(46): CodeIgniter\Model->__call('updateProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('34')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:44:48 --> Undefined array key "id"
+in APPPATH\Views\edit.php on line 28.
+ 1 APPPATH\Views\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Views\\edit.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Views\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('edit', [], true)
+ 5 APPPATH\Controllers\ProductController.php(40): view('edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:53:25 --> Cannot access offset of type string on string
+in APPPATH\Views\product.php on line 40.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('product', [], true)
+ 4 APPPATH\Controllers\ProductController.php(58): view('product', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 02:53:32 --> Cannot access offset of type string on string
+in APPPATH\Views\product.php on line 40.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('product', [], true)
+ 4 APPPATH\Controllers\ProductController.php(58): view('product', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('27')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 03:10:58 --> Undefined variable $validationRules
+in APPPATH\Controllers\ProductController.php on line 52.
+ 1 APPPATH\Controllers\ProductController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validationRules', 'C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Controllers\\ProductController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 03:11:29 --> Undefined property: App\Controllers\ProductController::$data
+in APPPATH\Controllers\ProductController.php on line 52.
+ 1 APPPATH\Controllers\ProductController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProductController::$data', 'C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Controllers\\ProductController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 03:11:35 --> Undefined property: App\Controllers\ProductController::$data
+in APPPATH\Controllers\ProductController.php on line 52.
+ 1 APPPATH\Controllers\ProductController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProductController::$data', 'C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Controllers\\ProductController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 03:13:08 --> Undefined array key "id"
+in APPPATH\Controllers\ProductController.php on line 41.
+ 1 APPPATH\Controllers\ProductController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Controllers\\ProductController.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 03:13:26 --> Undefined array key "Id"
+in APPPATH\Controllers\ProductController.php on line 41.
+ 1 APPPATH\Controllers\ProductController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Id"', 'C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Controllers\\ProductController.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 03:14:18 --> Undefined array key "Id"
+in APPPATH\Controllers\ProductController.php on line 41.
+ 1 APPPATH\Controllers\ProductController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Id"', 'C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Controllers\\ProductController.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 03:14:32 --> Undefined variable $Id
+in APPPATH\Controllers\ProductController.php on line 50.
+ 1 APPPATH\Controllers\ProductController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Id', 'C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Controllers\\ProductController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 03:15:50 --> Undefined variable $Id
+in APPPATH\Controllers\ProductController.php on line 50.
+ 1 APPPATH\Controllers\ProductController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Id', 'C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Controllers\\ProductController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 03:18:00 --> Undefined variable $id
+in APPPATH\Controllers\ProductController.php on line 50.
+ 1 APPPATH\Controllers\ProductController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Controllers\\ProductController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
+CRITICAL - 2023-09-22 03:20:00 --> Undefined variable $id
+in APPPATH\Controllers\ProductController.php on line 50.
+ 1 APPPATH\Controllers\ProductController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\laragon\\www\\lara\\tests\\crudtest\\app\\Controllers\\ProductController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lara\\tests\\crudtest\\public\\index.php')
